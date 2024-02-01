@@ -1,6 +1,6 @@
 # Projet de Filtrage et Ranking de Pages Web
 
-## Auteur
+## Contributeur
 - Contributeur: Tanguy Legrand
 
 ## Description
@@ -9,7 +9,7 @@ Ce projet implémente un système de filtrage et de ranking de pages web en fonc
 ## Fonctionnalités Principales
 
 1. **Pretraitement du Texte**
-   - La fonction `preprocess_text(text)` est utilisée pour le prétraitement du texte, notamment la tokenization et la conversion en minuscules.
+   - La fonction `preprocess_text(text)` est utilisée pour le prétraitement de la requête, notamment la tokenization et la conversion en minuscules.
 
 2. **Filtrage des Documents**
    - La fonction `filter_documents(query_tokens, title_index, content_index)` filtre les documents en fonction des tokens de la requête. Elle utilise un index de titres et de contenus pour identifier les pages web pertinentes.
@@ -57,7 +57,3 @@ Ce projet implémente un système de filtrage et de ranking de pages web en fonc
   - `title_pos_index.json` : Index des positions des mots-clés dans les titres des pages web.
   - `content_pos_index.json` : Index des positions des mots-clés dans le contenu des pages web.
 
-## Remarque
-Ce README assume que le projet est utilisé dans un environnement Python standard, et que les fichiers de données nécessaires sont présents dans le même répertoire que les scripts.
-
-Merci de contacter Tanguy Legrand pour toute question ou contribution supplémentaire.
